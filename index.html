@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bmi Calculator</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="images" href="./images/">
+</head>
+<body>
+    <main class="container">
+        <section>
+            <div class="hero">
+                <div class="hero-sub">
+                    <div class="hero-img"><img src="./images/logo-77e9ec19.svg.png" alt="logo"></div>
+                    <div class="hero-text1">
+                        <div class="hero-p1">
+                            <p>Body Mass</p>
+                            <p>Index Calculator</p>
+                        </div>
+                        <div class="hero-p2">
+                            <p>
+                                Better understand your weight in relation to
+                                your height using our body mass index(BMI)
+                                calculator.While BMI is not the sole
+                                determinant of a healthy weight, it offers a
+                                valuable starting point to evaluate your
+                                overall health and well-being. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-sub1">   
+                    <div style="background-color: #fff;"><p class="hero-details">Enter your details below</p></div>
+                    <div class="hero-measure">
+                        <div class="hero-measure1">
+                            <input type="radio" name="measurement" value="measurement1" id="measurement1" > 
+                            <p>Metric</p>
+                        </div>
+                        <div class="hero-measure1">
+                            <input type="radio" name="measurement" value="measurement2" id="measurement2">
+                            <p>Imperial</p>
+                        </div>
+                    </div>
+                    <div class="hero-height"  id="content1" style="margin-top: 5px;"> <!--style="display: none;" can be added so the container shows no content until the radio input is clicked on-->
+                        <div><p class="hero-margin1">Height</p></div>
+                        <div class="hero-height1">
+                            <input type="text" id="height" name="height" placeholder="0" style="border: none;" class="hero-input">
+                            <!-- <p>0</p> -->
+                            <p class="hero-p">cm</p>
+                        </div>
+                        <div><p class="hero-margin2">Weight</p></div>
+                        <div class="hero-height1">
+                            <input type="text" id="weight" name="weight" placeholder="0" style="border: none;" class="hero-input">
+                            <!-- <p>0</p> -->
+                            <p class="hero-p">kg</p>
+                        </div>
+                    </div>
+                    <div id="content2" style="display: none;">
+                        <div><p class="hero-margin1">Height</p></div>
+                        <div class="content2-height">
+                            <div class="content2-height1">
+                                <input type="text" id="height" name="height" placeholder="0" style="border: none;" class="hero-input">
+                                <!-- <p>0</p> -->
+                                <p class="hero-p">ft</p>
+                            </div>
+                            <div class="content2-height1-a">
+                                <input type="text" id="height" name="height" placeholder="0" style="border: none;" class="hero-input">
+                                <!-- <p>0</p> -->
+                                <p class="hero-p">in</p>
+                            </div>
+                        </div>
+                        <div><p class="hero-margin2" >Weight</p></div>
+                        <div class="content2-height">
+                            <div class="content2-height1">
+                                <input type="text" id="weight" name="weight" placeholder="0" style="border: none;" class="hero-input">
+                                <!-- <p>0</p> -->
+                                <p class="hero-p">st</p>
+                            </div>
+                            <div class="content2-height1-a">
+                                <input type="text" id="weight" name="weight" placeholder="0" style="border: none;" class="hero-input">
+                                <!-- <p>0</p> -->
+                                <p class="hero-p">lbs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-welcome">
+                        <div><h3>Welcome!</h3></div>
+                        <div class="hero-welcome-p">
+                            <p>
+                                Enter your height and weight and
+                                you'll see your BMI result here
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                
+            </div>
+        </section>
+    </main>
+    <script src="/script/index.js"></script>
+</body>
+</html>
