@@ -96,7 +96,7 @@ section {
     position: absolute;
     transform: translateX(50%);
     background-color: #FFF;
-    bottom: -250px;
+    bottom: -280px;
     max-width: 550px;
     padding: 24px;
     width: 80%;
@@ -226,11 +226,12 @@ input[type="radio"] {
 /** Section 2 **/
 
 .section-2 {
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    /* background-color: red; */
 
 }
 
@@ -366,7 +367,8 @@ input[type="radio"] {
 /* RESPONSIVENESS */
 @media (min-width: 350px) {
     .hero-sub1 {
-        bottom: -270px;
+        bottom: -370px;
+        /* background-color: red; */
     }
 }
 
