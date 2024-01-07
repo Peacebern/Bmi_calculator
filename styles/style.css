@@ -121,7 +121,7 @@ section {
 
 .hero-measure {
     display: flex;
-    gap: 2rem;
+    gap: 10px;
 }
 
 .hero-measure1 {
@@ -366,9 +366,9 @@ input[type="radio"] {
 }
 
 /* RESPONSIVENESS */
-@media (min-width: 350px) {
+@media (min-width: 300px) {
     .hero-sub1 {
-        bottom: -370px;
+        bottom: -400px;
         /* background-color: red; */
     }
 }
