@@ -354,6 +354,7 @@ input[type="radio"] {
 .ment {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .ment1 {
